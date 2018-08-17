@@ -40,13 +40,15 @@ menuBtn.addEventListener('click', toggleMenu)
 modalText = [
 'Angular Social', 
 
-'is a Single-Page-App That Enables Users to join events in there area or create events For others to join. It is Built on the MEAN stack and uses several free API’s including Google maps and Angular Material. ', 
+'Angular Events is a Single-Page-App That Enables Users to join events in there area or create events For others to join. It is Built on the MEAN stack and uses several free API’s including Google maps and Angular Material. ', 
 
-'The classic simon says game . Web-app that uses the Angular.js frontend  framework to  create an fun and interactive game. The app uses JavaScript/HTML5/CSS3/Angularjs', 
+'Stick Adventure Test',
+
+'Simon Says is the classic simon says game . Web-app that uses the Angular.js frontend  framework to  create an fun and interactive game. The app uses JavaScript/HTML5/CSS3/Angularjs', 
 
 'Traveler​ is a SPA (Single-Page-App) That enables travelers around the world to connect to other  travelers and join them on location based events.The app uses various google api to make it    interactive and visually attractive. React.js is used as the front-end framework with HTML5/CSS3/ Bootstrap.The back-end  is built with Node.js and Express using the MongoDb database. ',
 
- ' is a full-stack web app that helps students in the class to schedule  help request  from the teaching assistance.The project uses JavaScript/HTML5/CSS3/Jquery for the client side  for the server side the project use Node.js/Express with MongoDb as a database,and Socket.io  for the communication between the users.'
+ 'get Inline is a full-stack web app that helps students in the class to schedule  help request  from the teaching assistance.The project uses JavaScript/HTML5/CSS3/Jquery for the client side  for the server side the project use Node.js/Express with MongoDb as a database,and Socket.io  for the communication between the users.'
 ]
 
 

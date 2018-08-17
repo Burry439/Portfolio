@@ -50,78 +50,124 @@
             <h1 class="lg-heading">My <span class="text-secondary"> Work</span></h1>
             <h2 class="sm-heading">Check out some of my projects </h2>
             <div class="projects">
+
+
+
                 <div class="item">
+                        <h4 class="lg-heading" style="text-align: center">Angular Social</h4>
+
                     <a href="#!">
                         <img src="img/projects/project1.jpg" alt="project">
                     </a>
 
-                    <a href="#!" class="btn-light">
+                    <a href="https://angular6-chat-app.herokuapp.com/home/dashboard" target="_blank" class="btn-light">
                         <i class="fas fa-eye"></i>Project
                     </a>
 
-                    <a href="#!" class="btn-dark">
+                    <a href="https://github.com/Burry439/angular6-chat-app" target="_blank" class="btn-dark">
                         <i class="fab fa-github"></i> Github                     
+                     </a>
+
+                     <a href="#!" onclick="openModal(0)" class="btn-blue">
+                        <i class="fas fa-info"></i> About                    
                      </a>
                 </div>
 
                 <div class="item">
+                        <h4 class="lg-heading" style="text-align: center">Angular Events</h4>
+
                         <a href="#!">
                             <img src="img/projects/project2.jpg" alt="project">
                         </a>
                         
-                        <a href="#!" class="btn-light">
+                        <a href="https://angular-events.herokuapp.com/events" target="_blank" class="btn-light">
                             <i class="fas fa-eye"></i>Project
                         </a>
     
-                        <a href="#!" class="btn-dark">
+                        <a href="https://github.com/Burry439/angular-events" target="_blank" class="btn-dark">
                             <i class="fab fa-github"></i> Github                        
                          </a>
+                         <a href="#!" onclick="openModal(1)" class="btn-blue">
+                            <i class="fas fa-info"></i> About                    
+                         </a>
                     </div>
+
+
                     <div class="item">
+                            <h4 class="lg-heading" style="text-align: center">Simon Say's</h4>
+
                             <a href="#!">
                                 <img src="img/projects/project3.jpg" alt="project">
                             </a>
                             
-                            <a href="#!" class="btn-light">
+                            <a href="https://simon-sayss.herokuapp.com/#!/home" target="_blank" class="btn-light">
                                 <i class="fas fa-eye"></i>Project
                             </a>
         
-                            <a href="#!" class="btn-dark">
+                            <a href="https://github.com/Burry439/simon-sayss" target="_blank" class="btn-dark">
                                 <i class="fab fa-github"></i>  Github                        
                              </a>
+                             <a href="#!" onclick="openModal(2)" class="btn-blue">
+                                <i class="fas fa-info"></i> About                    
+                             </a>
                         </div>
+
+
                         <div class="item">
+                                <h4 class="lg-heading" style="text-align: center">Traveler</h4>
+
                                 <a href="#!">
                                     <img src="img/projects/project4.jpg" alt="project">
                                 </a>
                                 
-                                <a href="#!" class="btn-light">
+                                <a href="https://yourtravelerapp.herokuapp.com/" target="_blank" class="btn-light">
                                     <i class="fas fa-eye"></i>Project
                                 </a>
             
-                                <a href="#!" class="btn-dark">
+                                <a href="https://github.com/LiseNakache/Traveler" target="_blank" class="btn-dark">
                                     <i class="fab fa-github"></i>  Github                        
                                  </a>
+                                 <a href="#!" onclick="openModal(3)" class="btn-blue">
+                                    <i class="fas fa-info"></i> About                    
+                                 </a>
                             </div>
+
+
                             <div class="item">
+                                    <h4 class="lg-heading" style="text-align: center">Get In Line</h4>
+
                                     <a href="#!">
                                         <img src="img/projects/project5.jpg" alt="project">
                                     </a>
                                     
-                                    <a href="#!" class="btn-light">
+                                    <a href="http://get-inline.herokuapp.com/" target="_blank" class="btn-light">
                                         <i class="fas fa-eye"></i>Project
                                     </a>
                 
-                                    <a href="#!" class="btn-dark">
+                                    <a href="https://github.com/Burry439/get-inline" target="_blank"  class="btn-dark">
                                         <i class="fab fa-github"></i>  Github                        
+                                     </a>
+                                     <a  onclick="openModal(4)" href="#!" class="btn-blue">
+                                        <i class="fas fa-info"></i> About                    
                                      </a>
                                 </div>
 
             </div>
        </main>
 
+
+       <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p style="color:black" id="modalText"></p>
+        </div>
+      
+      </div>
+
        <footer id="main-footer">
-         Copyright &copy; 2018
+            Created By Baruch Weinstein 
        </footer>
 
 <script src="js/main.js"></script>

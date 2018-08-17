@@ -95,9 +95,15 @@ main
     grid-gap: 30px;
     grid-template-areas:
     'bioimage bio bio'
+    'education education education'
     'job1 job2 job3';
     grid-template-columns: repeat(3,1fr)
 }
+
+    .education
+    {
+        grid-area: education; 
+    }
 
 .bio-image
 {
@@ -113,15 +119,15 @@ main
     font-size: 1.5rem;
 }
 
-.job1
+.job-1
 {
     grid-area: job1;
 }
-.job2
+.job-2
 {
     grid-area: job2;
 }
-.job3
+.job-3
 {
     grid-area: job3;
 }
@@ -216,6 +222,13 @@ main
 {
     @extend .btn;
     background: lighten($primary-color, 50) ;
+    color:#333;
+}
+
+.btn-blue
+{
+    @extend .btn;
+    background: #add8e6;
     color:#333;
 }
 

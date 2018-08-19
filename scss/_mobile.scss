@@ -114,7 +114,15 @@
     .projects
     {
         grid-template-columns:1fr;
+        position: absolute;
+        right:5px;
     }
     
+    .job-1, .job-2, .job-3
+    {
+        position: relative;
+        right:20px;
+    }
+
 }
 

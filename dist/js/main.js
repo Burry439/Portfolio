@@ -33,13 +33,19 @@ toggleMenu = () =>{
 
 menuBtn.addEventListener('click', toggleMenu)
 
+const text = `React Games is an online gaming web site where the user's can play games and win tickets by completing challenges. The app is split into a 
+<a style="color:blue "href="https://github.com/Burry439/unity-react-frontend" target="_blank">React frontend application</a>, 
+<a style="color:blue " href="https://github.com/Burry439/unity-react-api" target="_blank">Node.js API</a>,
+<a style="color:blue " href="https://github.com/Burry439/single-player-games-iframe" target="_blank"> Node.js game server.</a> and a 
+<a style="color:blue " href="https://github.com/Burry439/multiplayer-game-iframe" target="_blank">Node.js multiplayer game server</a>`
+
 
 
 /////////////////////////////modal//////////////////////
 
-
-
 modalText = [
+    text,
+
 'Angular Social is a social media SPA (Single-Page-App) built using the MEAN Stack, It uses Socket.io so users can see in real time status updates, get notified when someone comments on there post and even allows users to see who is currently online and Direct message each other', 
 
 'Angular Events is a MEAN Stack SPA (Single-Page-App) That Enables Users to join events in there area or create events For others to join. It uses Google maps so you can Search for Events in your area', 
@@ -76,6 +82,7 @@ window.onclick = function(event) {
     }
 }
  openModal = (index)=>{
+    console.log(index)
     modal.style.display = "block";
     p.innerHTML = modalText[index]
 } 
